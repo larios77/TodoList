@@ -1,0 +1,25 @@
+.container__todo {
+  .content__todo-add {
+    display: flex;
+    width: 85%;
+    margin: 20px auto;
+    padding: 16px 10px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px hsl(0, 0%, 43%);
+    .input__add {
+      border: none;
+      margin: 0 6px;
+      background-color: transparent;
+      outline: none;
+      color: hsl(233, 7%, 49%);
+      width: 100%;
+    }
+  }
+}
+@media screen and (min-width: 1330px) {
+  .container__todo {
+    .content__todo-add {
+      width: 45%;
+    }
+  }
+}
