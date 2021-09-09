@@ -30,10 +30,6 @@
       background: transparent;
       outline: none;
     }
-    // .input__todo:hover {
-    //   text-decoration: line-through;
-    //   cursor: pointer;
-    // }
   }
   .todo__list-footer {
     display: flex;
@@ -67,6 +63,12 @@
 }
 .footer__list button:active {
   transform: scale(0.9);
+}
+.footer {
+  text-align: center;
+  color: hsl(236, 9%, 61%);
+  font-family: Josefin Sans;
+  margin-top: 60px;
 }
 @media screen and (min-width: 1330px) {
   .footer__list {

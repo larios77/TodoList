@@ -47,6 +47,7 @@ function TodoList({ todos, setTodos }) {
         <button>Active</button>
         <button>Completed</button>
       </div>
+      <p className="footer">Drag and drop to reorder list</p>
     </>
   )
 }

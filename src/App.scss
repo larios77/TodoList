@@ -1,9 +1,13 @@
-.footer {
-  text-align: center;
-  color: hsl(236, 9%, 61%);
-  font-family: Josefin Sans;
-  margin-top: 60px;
-}
 .container__form-todo {
-  height: 70vh;
+  height: 100vh;
+}
+.dark-mode {
+  background-color: hsl(235, 24%, 19%);
+  color: #999;
+  transition: background-color 0.25s ease-in-out;
+}
+.light-mode {
+  background-color: #fff;
+  color: #333;
+  transition: background-color 0.25s ease-in-out;
 }

@@ -22,7 +22,6 @@ function App() {
           setTodos={setTodos}
         />
         <TodoList todos={todos} setTodos={setTodos} />
-        <p className="footer">Drag and drop to reorder list</p>
       </div>
     </div>
   )

@@ -1,7 +1,5 @@
 import ImageMobileLight from '../../images/bg-mobile-light.jpg'
-// import ImageMobileDark from '../../images/bg-mobile-dark.jpg'
 import ImageDesktopLight from '../../images/bg-desktop-light.jpg'
-// import ImageDesktopDark from '../../images/bg-desktop-dark.jpg'
 import './todoHeader.scss'
 
 function TodoHeader() {

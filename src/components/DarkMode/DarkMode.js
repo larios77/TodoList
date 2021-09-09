@@ -13,27 +13,20 @@ export default function DarkMode({ darkMode, setDarkMode }) {
   }
   return (
     <div className={darkMode ? 'dark-mode' : 'light-mode'}>
-      <div className="container__darkmode">
-        <div className="switch-checkbox">
-          <label className="switch">
-            <input type="checkbox" onChange={() => setDarkMode(!darkMode)} />
-          </label>
-        </div>
-        <div className="darkmode__lightmode">
-          {darkMode ? (
-            <img
-              src={iconSun}
-              onClick={() => switchModes('light')}
-              alt="iconSun"
-            />
-          ) : (
-            <img
-              src={iconMoon}
-              onClick={() => switchModes('dark')}
-              alt="iconMoon"
-            />
-          )}
-        </div>
+      <div className="darkmode__lightmode">
+        {darkMode ? (
+          <img
+            src={iconSun}
+            onClick={() => switchModes('light')}
+            alt="iconSun"
+          />
+        ) : (
+          <img
+            src={iconMoon}
+            onClick={() => switchModes('dark')}
+            alt="iconMoon"
+          />
+        )}
       </div>
     </div>
   )
