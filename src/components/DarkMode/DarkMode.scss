@@ -1,6 +1,6 @@
 .container__darkmode {
   text-align: center;
-
+  height: auto;
   .switch {
     position: relative;
     display: inline-block;
@@ -15,13 +15,11 @@
   background-color: hsl(235, 24%, 19%);
   color: #999;
   transition: background-color 0.25s ease-in-out;
-  height: 100%;
 }
 .light-mode {
   background-color: #fff;
   color: #333;
   transition: background-color 0.25s ease-in-out;
-  height: 100%;
 }
 .darkmode__lightmode {
   position: absolute;
@@ -29,9 +27,9 @@
   left: 320px;
   cursor: pointer;
 }
-@media screen and (min-width: 1330px){
-  .darkmode__lightmode{
-    top:105px;
-    left:1000px;
+@media screen and (min-width: 1330px) {
+  .darkmode__lightmode {
+    top: 105px;
+    left: 1000px;
   }
 }
